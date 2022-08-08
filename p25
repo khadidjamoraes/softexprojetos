@@ -1,0 +1,20 @@
+Aluna: Khadidja Moraes
+
+Atividade: 
+Estruture três códigos, os quais devem conter uma função de manipulação de string que obtenha resultado.
+
+Algortimo:
+
+Primeiro Código:
+s = "boa tarde, pessoal!"
+print(s.capitalize()) # transformando a primeira letra em maiúscula. 
+
+Segundo Código:
+s = "boa tarde, pessoal!"
+len(s) # Observando o tamanho de uma string.
+print(len(s))
+
+Terceiro Código:
+s = "boa tarde, pessoal!"
+s1 = s.replace("pessoal", "meus animais") # Trocando uma substring por outra
+print(s1)
