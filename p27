@@ -1,0 +1,16 @@
+Aluna: Khadidja Moraes Lopes da Silva
+
+Atividade: Crie uma situação em que ocorra uma exceção dentro de um código. Utilize try/catch para realizar a captura e tratamento dessa exceção. 
+
+Algoritmo:
+
+public static void main (String[] args) {
+    try {
+        System.out.println(6 / 0);
+       
+    } catch (Exception excecao) {
+        System.out.println('Um erro foi localizado:' + excecao.getMessage());
+
+    }
+    System.out.println('Sistema finalizado.');
+}
